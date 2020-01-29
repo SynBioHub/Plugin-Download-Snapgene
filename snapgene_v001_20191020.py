@@ -127,16 +127,6 @@ def snapgenefile(partname, filename, detectfeatures = False, linear = True):
 
     return(partname+".zip")
 
-#%%
-uri = "https://synbiohub.org/public/igem/BBa_E0240/1"
-sequence = "tcacacaggaaagtactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataatactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata"
-partname = "BBa_E0240"
-linear = True
-
-genebank, imname = snapgeneseq(sequence, uri, partname, detectfeatures = True, linear = linear)
-#genebank, imname = snapgenefile(partname, "BBa_E0240.gb", detectfeatures = False, linear = linear)
-
-
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #FLASK_APP=app.py flask run
@@ -169,9 +159,6 @@ def wrapper():
     except Exception as e:
         print(e)
         abort(404)
-
-app.run()
-
 
 
 
