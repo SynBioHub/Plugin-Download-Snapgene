@@ -16,4 +16,4 @@ RUN pip3 install -r requirements.txt
 
 ENV FLASK_APP=snapgene_v001_20191020.py
 
-CMD ["flask", "run", "--host=0.0.0.0"]
+CMD ["waitress-serve", "--port=5000", "app:app"]
