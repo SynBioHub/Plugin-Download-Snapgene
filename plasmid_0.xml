@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:synbiohub="http://synbiohub.org#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sybio="http://www.sybio.ncl.ac.uk#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ncbi="http://www.ncbi.nlm.nih.gov#" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:gbconv="http://sbols.org/genBankConversion#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:obo="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0"/>
+    <sbol:displayId>plasmid_0</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/and_gateVirtualNetlistFO_RGR_11_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/and_gateVirtualNetlistFO_RGR_11_component"/>
+        <sbol:displayId>and_gateVirtualNetlistFO_RGR_11_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/backbone_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/backbone_component"/>
+        <sbol:displayId>backbone_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/backbone/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/SequenceAnnotation_backbone/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/SequenceAnnotation_backbone"/>
+        <sbol:displayId>SequenceAnnotation_backbone</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/SequenceAnnotation_backbone/SequenceAnnotation_backbone_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/SequenceAnnotation_backbone/SequenceAnnotation_backbone_Range"/>
+            <sbol:displayId>SequenceAnnotation_backbone_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>54</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/backbone_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1"/>
+            <sbol:start>54</sbol:start>
+            <sbol:end>1119</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/and_gateVirtualNetlistFO_RGR_11_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/plasmid_0Constraint0/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/plasmid_0Constraint0"/>
+        <sbol:displayId>plasmid_0Constraint0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/backbone_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0/and_gateVirtualNetlistFO_RGR_11_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11"/>
+    <sbol:displayId>and_gateVirtualNetlistFO_RGR_11</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/Pro_r1_r5_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/Pro_r1_r5_component"/>
+        <sbol:displayId>Pro_r1_r5_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/r1_r5_and_gateVirtualNetlistFO_RGR_11_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/r1_r5_and_gateVirtualNetlistFO_RGR_11_component"/>
+        <sbol:displayId>r1_r5_and_gateVirtualNetlistFO_RGR_11_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>756</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/Pro_r1_r5_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation1/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation1"/>
+        <sbol:displayId>SequenceAnnotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation1/SequenceAnnotation1_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation1/SequenceAnnotation1_Range"/>
+            <sbol:displayId>SequenceAnnotation1_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+            <sbol:start>756</sbol:start>
+            <sbol:end>1066</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/r1_r5_and_gateVirtualNetlistFO_RGR_11_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/and_gateVirtualNetlistFO_RGR_11_Constraint0/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/and_gateVirtualNetlistFO_RGR_11_Constraint0"/>
+        <sbol:displayId>and_gateVirtualNetlistFO_RGR_11_Constraint0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/Pro_r1_r5_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11/r1_r5_and_gateVirtualNetlistFO_RGR_11_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/backbone/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/backbone"/>
+    <sbol:displayId>backbone</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/backbone/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000755"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/backbone_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5"/>
+    <sbol:displayId>Pro_r1_r5</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon1_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon1_component"/>
+        <sbol:displayId>Codon1_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon1/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon2_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon2_component"/>
+        <sbol:displayId>Codon2_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon2/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/TataBox_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/TataBox_component"/>
+        <sbol:displayId>TataBox_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/TataBox/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/UAS_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/UAS_component"/>
+        <sbol:displayId>UAS_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/UAS/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r1_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r1_component"/>
+        <sbol:displayId>r1_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r1/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r5_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r5_component"/>
+        <sbol:displayId>r5_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r5/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/tss_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/tss_component"/>
+        <sbol:displayId>tss_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/tss/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Kozak_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Kozak_component"/>
+        <sbol:displayId>Kozak_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Kozak/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/LinkingSequence_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/LinkingSequence_component"/>
+        <sbol:displayId>LinkingSequence_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/LinkingSequence/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>537</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/UAS_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation1/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation1"/>
+        <sbol:displayId>SequenceAnnotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation1/SequenceAnnotation1_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation1/SequenceAnnotation1_Range"/>
+            <sbol:displayId>SequenceAnnotation1_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>537</sbol:start>
+            <sbol:end>561</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/LinkingSequence_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation2/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation2"/>
+        <sbol:displayId>SequenceAnnotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation2/SequenceAnnotation2_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation2/SequenceAnnotation2_Range"/>
+            <sbol:displayId>SequenceAnnotation2_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>561</sbol:start>
+            <sbol:end>581</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r1_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation3/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation3"/>
+        <sbol:displayId>SequenceAnnotation3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation3/SequenceAnnotation3_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation3/SequenceAnnotation3_Range"/>
+            <sbol:displayId>SequenceAnnotation3_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>581</sbol:start>
+            <sbol:end>584</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon1_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation4/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation4"/>
+        <sbol:displayId>SequenceAnnotation4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation4/SequenceAnnotation4_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation4/SequenceAnnotation4_Range"/>
+            <sbol:displayId>SequenceAnnotation4_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>584</sbol:start>
+            <sbol:end>645</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/TataBox_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation5/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation5"/>
+        <sbol:displayId>SequenceAnnotation5</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation5/SequenceAnnotation5_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation5/SequenceAnnotation5_Range"/>
+            <sbol:displayId>SequenceAnnotation5_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>645</sbol:start>
+            <sbol:end>648</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon2_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation6/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation6"/>
+        <sbol:displayId>SequenceAnnotation6</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation6/SequenceAnnotation6_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation6/SequenceAnnotation6_Range"/>
+            <sbol:displayId>SequenceAnnotation6_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>648</sbol:start>
+            <sbol:end>668</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r5_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation7/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation7"/>
+        <sbol:displayId>SequenceAnnotation7</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation7/SequenceAnnotation7_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation7/SequenceAnnotation7_Range"/>
+            <sbol:displayId>SequenceAnnotation7_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>668</sbol:start>
+            <sbol:end>753</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/tss_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation8/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation8"/>
+        <sbol:displayId>SequenceAnnotation8</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation8/SequenceAnnotation8_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/SequenceAnnotation8/SequenceAnnotation8_Range"/>
+            <sbol:displayId>SequenceAnnotation8_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+            <sbol:start>753</sbol:start>
+            <sbol:end>756</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Kozak_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint4/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint4"/>
+        <sbol:displayId>Pro_r1_r5_Constraint4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon1_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/TataBox_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint3/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint3"/>
+        <sbol:displayId>Pro_r1_r5_Constraint3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r1_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon1_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint2/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint2"/>
+        <sbol:displayId>Pro_r1_r5_Constraint2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/LinkingSequence_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r1_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint1/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint1"/>
+        <sbol:displayId>Pro_r1_r5_Constraint1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/UAS_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/LinkingSequence_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint8/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint8"/>
+        <sbol:displayId>Pro_r1_r5_Constraint8</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/tss_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Kozak_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint7/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint7"/>
+        <sbol:displayId>Pro_r1_r5_Constraint7</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r5_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/tss_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint6/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint6"/>
+        <sbol:displayId>Pro_r1_r5_Constraint6</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon2_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/r5_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequenceConstraint>
+      <sbol:SequenceConstraint rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint5/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Pro_r1_r5_Constraint5"/>
+        <sbol:displayId>Pro_r1_r5_Constraint5</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/1"/>
+        <sbol:restriction rdf:resource="http://sbols.org/v2#precedes"/>
+        <sbol:subject rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/TataBox_component/1"/>
+        <sbol:object rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5/Codon2_component/1"/>
+      </sbol:SequenceConstraint>
+    </sbol:sequenceConstraint>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11"/>
+    <sbol:displayId>r1_r5_and_gateVirtualNetlistFO_RGR_11</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:component>
+      <sbol:Component rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/RGR_11_grna_component/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/RGR_11_grna_component"/>
+        <sbol:displayId>RGR_11_grna_component</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:definition rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/RGR_11_grna/1"/>
+        <sbol:access rdf:resource="http://sbols.org/v2#public"/>
+      </sbol:Component>
+    </sbol:component>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation0/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation0"/>
+        <sbol:displayId>SequenceAnnotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/1"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation0/SequenceAnnotation0_Range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/SequenceAnnotation0/SequenceAnnotation0_Range"/>
+            <sbol:displayId>SequenceAnnotation0_Range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+            <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/1"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>311</sbol:end>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:component rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11/RGR_11_grna_component/1"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon1/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon1"/>
+    <sbol:displayId>Codon1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>Codon1</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon1/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000360"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon2/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon2"/>
+    <sbol:displayId>Codon2</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>Codon2</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon2/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000360"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon2_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/Kozak/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Kozak"/>
+    <sbol:displayId>Kozak</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>Kozak</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Kozak/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001647"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Kozak_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/LinkingSequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/LinkingSequence"/>
+    <sbol:displayId>LinkingSequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>LinkingSequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/LinkingSequence/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001678"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/LinkingSequence_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/RGR_11_grna/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/RGR_11_grna"/>
+    <sbol:displayId>RGR_11_grna</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>RGR_11_grna</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/RGR_11_grna/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001264"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/RGR_11_grna_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/TataBox/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/TataBox"/>
+    <sbol:displayId>TataBox</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>TataBox</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/TataBox/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000174"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/TataBox_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/UAS/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/UAS"/>
+    <sbol:displayId>UAS</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>UAS</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/UAS/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0001678"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/UAS_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/r1/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r1"/>
+    <sbol:displayId>r1</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>r1</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r1/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000057"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r1_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/r5/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r5"/>
+    <sbol:displayId>r5</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>r5</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r5/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000057"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r5_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/tss/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/tss"/>
+    <sbol:displayId>tss</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>tss</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/tss/1"/>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000315"/>
+    <sbol:sequence rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/tss_sequence/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Attachment rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/attachment_00009b4qEh5o5HTe1Kok52/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/attachment_00009b4qEh5o5HTe1Kok52"/>
+    <sbol:displayId>attachment_00009b4qEh5o5HTe1Kok52</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>UWYeast1.UCF.json</dcterms:title>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/attachment_00009b4qEh5o5HTe1Kok52/1"/>
+    <sbol:source rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/attachment_00009b4qEh5o5HTe1Kok52/1/download"/>
+    <sbol:format rdf:resource="http://purl.org/NET/mediatypes/text/plain"/>
+    <sbol:size>31797</sbol:size>
+    <sbol:hash>6df19150f19aabb6b73c7eb9041e1165c629cb19</sbol:hash>
+  </sbol:Attachment>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0_sequence"/>
+    <sbol:displayId>plasmid_0_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/plasmid_0_sequence/1"/>
+    <sbol:elements>CCAATTATTGAAGGCCTCCCTAACGGGGGGCCTTTTTTTGTTTCTGGTCTCCCagtttatcattatcaatactcgccatttcaaagaatacgtaaataattaatagtagtgattttcctaactttatttagtcaaaaaattagccttttaattctgctgtaacccgtacatgcccaaaatagggggcgggttacacagaatatataacatcgtaggtgtctgggtgaacagtttattcctggcatccactaaatataatggagcccgctttttaagctggcatccagaaaaaaaaagaatcccagcaccaaaatattgttttcttcaccaaccatcagttcataggtccattctcttagcgcaactacagagaacaggggcacaaacaggcaaaaaacgggcacaacctcaatggagtgatgcaacctgcctggagtaaatgatgacacaaggcaattgacccacgcatgtatctatctcattttcttacaccttctattaccttctgctctctctgatttggaaaaagctgaaaaaaaaggttgaaaccagttccctgaaattattcccctacttgactaataagtaaattcctgcagcccgggtactgtatGGAACGTGATTGAATAACTTtggcatgcatgtgctctgtatgtatataaaactcttgttttcttcttttctctaaatattctttcctGAAGTCAGTTGACAGAGTCGgcataaattactatacttctatagacacacaaacacaaatacacacactaatctagatattggattctagaactagtggatctacaaaggattctagaactagtggatctacaaaTTTACACAGTGGGACGGGCCATCATCTATCCCTGAAGAGACGAAGGCTTCGGCCAAGTCGAAACGGAAACGTCGGATAGTCGCCCGTCCCACACGGGCAAAGAGACGCTTGTCGgttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgcttttggccggcatggtcccagcctcctcgctggcgccggctgggcaacatgcttcggcatggcgaatgggactgataccgtcgacctcgagtc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11_sequence"/>
+    <sbol:displayId>and_gateVirtualNetlistFO_RGR_11_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/and_gateVirtualNetlistFO_RGR_11_sequence/1"/>
+    <sbol:elements>agtttatcattatcaatactcgccatttcaaagaatacgtaaataattaatagtagtgattttcctaactttatttagtcaaaaaattagccttttaattctgctgtaacccgtacatgcccaaaatagggggcgggttacacagaatatataacatcgtaggtgtctgggtgaacagtttattcctggcatccactaaatataatggagcccgctttttaagctggcatccagaaaaaaaaagaatcccagcaccaaaatattgttttcttcaccaaccatcagttcataggtccattctcttagcgcaactacagagaacaggggcacaaacaggcaaaaaacgggcacaacctcaatggagtgatgcaacctgcctggagtaaatgatgacacaaggcaattgacccacgcatgtatctatctcattttcttacaccttctattaccttctgctctctctgatttggaaaaagctgaaaaaaaaggttgaaaccagttccctgaaattattcccctacttgactaataagtaaattcctgcagcccgggtactgtatGGAACGTGATTGAATAACTTtggcatgcatgtgctctgtatgtatataaaactcttgttttcttcttttctctaaatattctttcctGAAGTCAGTTGACAGAGTCGgcataaattactatacttctatagacacacaaacacaaatacacacactaatctagatattggattctagaactagtggatctacaaaggattctagaactagtggatctacaaaTTTACACAGTGGGACGGGCCATCATCTATCCCTGAAGAGACGAAGGCTTCGGCCAAGTCGAAACGGAAACGTCGGATAGTCGCCCGTCCCACACGGGCAAAGAGACGCTTGTCGgttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgcttttggccggcatggtcccagcctcctcgctggcgccggctgggcaacatgcttcggcatggcgaatgggactgataccgtcgacctcgagtc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/backbone_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/backbone_sequence"/>
+    <sbol:displayId>backbone_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/backbone_sequence/1"/>
+    <sbol:elements>CCAATTATTGAAGGCCTCCCTAACGGGGGGCCTTTTTTTGTTTCTGGTCTCCC</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5_sequence"/>
+    <sbol:displayId>Pro_r1_r5_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/Pro_r1_r5_sequence/1"/>
+    <sbol:elements>agtttatcattatcaatactcgccatttcaaagaatacgtaaataattaatagtagtgattttcctaactttatttagtcaaaaaattagccttttaattctgctgtaacccgtacatgcccaaaatagggggcgggttacacagaatatataacatcgtaggtgtctgggtgaacagtttattcctggcatccactaaatataatggagcccgctttttaagctggcatccagaaaaaaaaagaatcccagcaccaaaatattgttttcttcaccaaccatcagttcataggtccattctcttagcgcaactacagagaacaggggcacaaacaggcaaaaaacgggcacaacctcaatggagtgatgcaacctgcctggagtaaatgatgacacaaggcaattgacccacgcatgtatctatctcattttcttacaccttctattaccttctgctctctctgatttggaaaaagctgaaaaaaaaggttgaaaccagttccctgaaattattcccctacttgactaataagtaaattcctgcagcccgggtactgtatGGAACGTGATTGAATAACTTtggcatgcatgtgctctgtatgtatataaaactcttgttttcttcttttctctaaatattctttcctGAAGTCAGTTGACAGAGTCGgcataaattactatacttctatagacacacaaacacaaatacacacactaatctagatattggattctagaactagtggatctacaaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11_sequence"/>
+    <sbol:displayId>r1_r5_and_gateVirtualNetlistFO_RGR_11_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/jonests"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast_AND_gate/r1_r5_and_gateVirtualNetlistFO_RGR_11_sequence/1"/>
+    <sbol:elements>ggattctagaactagtggatctacaaaTTTACACAGTGGGACGGGCCATCATCTATCCCTGAAGAGACGAAGGCTTCGGCCAAGTCGAAACGGAAACGTCGGATAGTCGCCCGTCCCACACGGGCAAAGAGACGCTTGTCGgttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgcttttggccggcatggtcccagcctcctcgctggcgccggctgggcaacatgcttcggcatggcgaatgggactgataccgtcgacctcgagtc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon1_sequence"/>
+    <sbol:displayId>Codon1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>Codon1_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon1_sequence/1"/>
+    <sbol:elements>tgg</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon2_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon2_sequence"/>
+    <sbol:displayId>Codon2_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>Codon2_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Codon2_sequence/1"/>
+    <sbol:elements>cct</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/Kozak_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Kozak_sequence"/>
+    <sbol:displayId>Kozak_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>Kozak_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/Kozak_sequence/1"/>
+    <sbol:elements>aaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/LinkingSequence_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/LinkingSequence_sequence"/>
+    <sbol:displayId>LinkingSequence_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>LinkingSequence_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/LinkingSequence_sequence/1"/>
+    <sbol:elements>attcctgcagcccgggtactgtat</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/RGR_11_grna_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/RGR_11_grna_sequence"/>
+    <sbol:displayId>RGR_11_grna_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>RGR_11_grna_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/RGR_11_grna_sequence/1"/>
+    <sbol:elements>ggattctagaactagtggatctacaaaTTTACACAGTGGGACGGGCCATCATCTATCCCTGAAGAGACGAAGGCTTCGGCCAAGTCGAAACGGAAACGTCGGATAGTCGCCCGTCCCACACGGGCAAAGAGACGCTTGTCGgttttagagctagaaatagcaagttaaaataaggctagtccgttatcaacttgaaaaagtggcaccgagtcggtgcttttggccggcatggtcccagcctcctcgctggcgccggctgggcaacatgcttcggcatggcgaatgggactgataccgtcgacctcgagtc</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/TataBox_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/TataBox_sequence"/>
+    <sbol:displayId>TataBox_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>TataBox_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/TataBox_sequence/1"/>
+    <sbol:elements>catgcatgtgctctgtatgtatataaaactcttgttttcttcttttctctaaatattcttt</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/UAS_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/UAS_sequence"/>
+    <sbol:displayId>UAS_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>UAS_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/UAS_sequence/1"/>
+    <sbol:elements>agtttatcattatcaatactcgccatttcaaagaatacgtaaataattaatagtagtgattttcctaactttatttagtcaaaaaattagccttttaattctgctgtaacccgtacatgcccaaaatagggggcgggttacacagaatatataacatcgtaggtgtctgggtgaacagtttattcctggcatccactaaatataatggagcccgctttttaagctggcatccagaaaaaaaaagaatcccagcaccaaaatattgttttcttcaccaaccatcagttcataggtccattctcttagcgcaactacagagaacaggggcacaaacaggcaaaaaacgggcacaacctcaatggagtgatgcaacctgcctggagtaaatgatgacacaaggcaattgacccacgcatgtatctatctcattttcttacaccttctattaccttctgctctctctgatttggaaaaagctgaaaaaaaaggttgaaaccagttccctgaaattattcccctacttgactaataagtaa</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/r1_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r1_sequence"/>
+    <sbol:displayId>r1_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>r1_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r1_sequence/1"/>
+    <sbol:elements>GGAACGTGATTGAATAACTT</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/r5_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r5_sequence"/>
+    <sbol:displayId>r5_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>r5_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/r5_sequence/1"/>
+    <sbol:elements>GAAGTCAGTTGACAGAGTCG</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <sbol:Sequence rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/tss_sequence/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/tss_sequence"/>
+    <sbol:displayId>tss_sequence</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <prov:wasGeneratedBy rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <dcterms:title>tss_sequence</dcterms:title>
+    <dcterms:created>2018-09-25T11:47:33.420Z</dcterms:created>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/tss_sequence/1"/>
+    <sbol:elements>gcataaattactatacttctatagacacacaaacacaaatacacacactaatctagatattggattctagaactagtggatctac</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+  <prov:Activity rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity"/>
+    <sbol:displayId>CelloUCF2sbol_Activity</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>Cello UCF to SBOL conversion</dcterms:title>
+    <dcterms:description>Conversion of the Cello UCF parts and metadata to SBOL 2 documents.</dcterms:description>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-25T11:47:33.487Z</prov:endedAtTime>
+    <prov:qualifiedUsage>
+      <prov:Usage rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/UCF_file/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/UCF_file"/>
+        <sbol:displayId>UCF_file</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+        <prov:entity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/attachment_00009b4qEh5o5HTe1Kok52/1"/>
+      </prov:Usage>
+    </prov:qualifiedUsage>
+    <prov:qualifiedAssociation>
+      <prov:Association rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/association/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/association"/>
+        <sbol:displayId>association</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+        <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2sbol_Activity/1"/>
+        <prov:agent rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2SBOL/1"/>
+      </prov:Association>
+    </prov:qualifiedAssociation>
+  </prov:Activity>
+  <prov:Agent rdf:about="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2SBOL/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2SBOL"/>
+    <sbol:displayId>CelloUCF2SBOL</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:title>Cello UCF to SBOL</dcterms:title>
+    <dcterms:description>A script to convert Cello UCF parts and metadata to SBOL 2 documents.</dcterms:description>
+    <sbh:ownedBy rdf:resource="https://synbiohub.programmingbiology.org/user/myers"/>
+    <dc:creator>Prashant Vaidyanathan</dc:creator>
+    <dc:creator>Chris J. Myers</dc:creator>
+    <sbh:topLevel rdf:resource="https://synbiohub.programmingbiology.org/public/UWYeast1/CelloUCF2SBOL/1"/>
+    <dc:source rdf:resource="https://github.com/MyersResearchGroup/UCF2SBOL"/>
+  </prov:Agent>
+</rdf:RDF>
