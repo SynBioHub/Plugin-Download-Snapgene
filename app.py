@@ -4,6 +4,7 @@ Created on Sun Oct 20 21:32:39 2019
 
 @author: JVM
 """
+#for detectfeatures use: "annotate" or "plain", for return type use: "zip", "png", or "gb"
 
 #FLASK_APP=app.py flask run
 from flask import Flask, request, abort, send_from_directory
