@@ -102,7 +102,7 @@ def run(return_type, detectfeatures):
         
         ################## END SECTION ####################################
         
-        return send_from_directory(temp_dir, download_file_name)
+        return send_from_directory(temp_dir, download_file_name, as_attachment=True)
         
         #clear temp_dir directory
         shutil.rmtree(temp_dir, ignore_errors=True)
