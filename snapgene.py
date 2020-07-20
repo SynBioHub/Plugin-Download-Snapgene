@@ -219,14 +219,14 @@ def snapgenefile(filename, partname, out_dir, detectfeatures = False, linear = T
     #file to open
     gbfile = requests.get(filename).content
     files = {'fileToUpload': gbfile}
-    
+
     #parameters
     params = {} 
     
     #upload file
-    requests.post(newfile_url, files=files, data = data, params = params,
+    r = requests.post(newfile_url, files=files, data = data, params = params,
                       headers = {"Accept":"text/plain"})
-
+    print(r.text)
     get_converted(partname, out_dir)
     
     return

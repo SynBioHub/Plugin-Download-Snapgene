@@ -15,19 +15,19 @@ app = Flask(__name__)
 
 #flask run --host=0.0.0.0
 @app.route("/<detectfeatures>/<return_type>/status")
-def status():
+def status(detectfeatures, return_type):
     return("The Download Test Plugin Flask Server is up and running")
-    return("Not dead Jet")
+
 
 
 @app.route("/<detectfeatures>/<return_type>/evaluate", methods=["POST"])
-def evaluate():
+def evaluate(detectfeatures,return_type):
     data = request.get_json(force=True)
     rdf_type = data['type']
     
     ########## REPLACE THIS SECTION WITH OWN RUN CODE #################
     #uses rdf types
-    accepted_types = {'ComponentInstance', 'Sequence'}
+    accepted_types = {'Component', 'Sequence'}
     
     acceptable = rdf_type in accepted_types
     ################## END SECTION ####################################
@@ -99,13 +99,15 @@ def run(return_type, detectfeatures):
             download_file_name =  f"{partname}.gb"
         elif return_type == "zip":
             download_file_name =  "Zip.zip"
+        else:
+            abort(421)
         
         ################## END SECTION ####################################
         
         return send_from_directory(temp_dir, download_file_name, as_attachment=True)
         
-        #clear temp_dir directory
-        shutil.rmtree(temp_dir, ignore_errors=True)
+        # #clear temp_dir directory
+        # shutil.rmtree(temp_dir, ignore_errors=True)
         
     except Exception as e:
         print(e)
