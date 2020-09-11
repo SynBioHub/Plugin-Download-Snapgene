@@ -95,7 +95,7 @@ def run(return_type, detectfeatures):
         if return_type == "png":
             download_file_name =  f"{partname}.png"
             return send_from_directory(temp_dir.name, download_file_name,
-                                       attachment_filename=f"{partname}_{detectfeatures}.gb",
+                                       attachment_filename=f"{partname}_{detectfeatures}.png",
                                        as_attachment=True)
         elif return_type == "gb":
             download_file_name =  f"{partname}.gb"
