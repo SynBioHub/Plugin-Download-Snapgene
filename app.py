@@ -7,8 +7,8 @@ Created on Sun Oct 20 21:32:39 2019
 #for detectfeatures use: "annotate" or "plain", for return type use: "zip", "png", or "gb"
 
 #FLASK_APP=app.py flask run
-from flask import Flask, request, abort, send_from_directory
-import sbol2, shutil, os
+from flask import Flask, request, abort, send_from_directory, send_file
+import sbol2, tempfile, os, shutil
 from snapgene import find_sequence, find_partname, islinear, snapgeneseq, snapgenefile
 app = Flask(__name__)
 
@@ -22,12 +22,18 @@ def status(detectfeatures, return_type):
 
 @app.route("/<detectfeatures>/<return_type>/evaluate", methods=["POST"])
 def evaluate(detectfeatures,return_type):
+    #FOR SOME SNAPGENE RELATED REASON UNANOTATED PNGS OF SEQUENCES ARE IMPOSSIBLE
+    #THUS THE UNANOTATED SEQUENCE ENDPOINT IS HIDDEN
+    
     data = request.get_json(force=True)
     rdf_type = data['type']
     
     ########## REPLACE THIS SECTION WITH OWN RUN CODE #################
     #uses rdf types
-    accepted_types = {'Component', 'Sequence'}
+    if detectfeatures == 'plain':
+        accepted_types = {'Component'}
+    elif detectfeatures == 'annotate':
+       accepted_types = {'Component', 'Sequence'} 
     
     acceptable = rdf_type in accepted_types
     ################## END SECTION ####################################
@@ -41,18 +47,11 @@ def evaluate(detectfeatures,return_type):
 
 @app.route("/<detectfeatures>/<return_type>/run", methods=["POST"])
 def run(return_type, detectfeatures):
-    cwd = os.getcwd()
+    #FOR SOME SNAPGENE RELATED REASON UNANOTATED PNGS OF SEQUENCES ARE IMPOSSIBLE
+    #THUS THE UNANOTATED SEQUENCE ENDPOINT IS HIDDEN
     
-    temp_dir = os.path.join(cwd, "temp_dir")
-    
-    #remove to temp directory if it exists
-    try:
-        shutil.rmtree(temp_dir, ignore_errors=True)
-    except:
-        print("No temp_dir exists currently")
-    
-    #make temp_dir directory
-    os.makedirs(temp_dir)
+    #create a temporary directory
+    temp_dir = tempfile.TemporaryDirectory()
     
     data = request.get_json(force=True)
     
@@ -87,27 +86,32 @@ def run(return_type, detectfeatures):
 
         #if it is a sequnce page use sequence, if it is a componentdef page use gb
         if rdf_type == "Component":
-            snapgenefile(genbank_url, partname, temp_dir, detectfeatures = detectfeat, linear = linear)
+            snapgenefile(genbank_url, partname, temp_dir.name, detectfeatures = detectfeat, linear = linear)
         elif rdf_type == "Sequence":
             seq = find_sequence(doc)
-            snapgeneseq(seq, partname, temp_dir, detectfeatures = detectfeat, linear = linear)
+            snapgeneseq(seq, partname, temp_dir.name, detectfeatures = detectfeat, linear = linear)
 
         #return outfile  based on url param
         if return_type == "png":
             download_file_name =  f"{partname}.png"
+            return send_from_directory(temp_dir.name, download_file_name,
+                                       attachment_filename=f"{partname}_{detectfeatures}.gb",
+                                       as_attachment=True)
         elif return_type == "gb":
             download_file_name =  f"{partname}.gb"
+            return send_from_directory(temp_dir.name, download_file_name,
+                                       as_attachment=True,
+                                       attachment_filename=f"{partname}_{detectfeatures}.gb")
         elif return_type == "zip":
-            download_file_name =  "Zip.zip"
+            with tempfile.NamedTemporaryFile() as temp_file:
+                #create zip file of converted files and manifest
+                shutil.make_archive(temp_file.name, 'zip', temp_dir.name)
+                
+                #return zip file
+                return send_file(f"{temp_file.name}.zip", as_attachment=True,
+                                 attachment_filename=f"{partname}_{detectfeatures}.zip")
         else:
-            abort(421)
-        
-        ################## END SECTION ####################################
-        
-        return send_from_directory(temp_dir, download_file_name, as_attachment=True)
-        
-        # #clear temp_dir directory
-        # shutil.rmtree(temp_dir, ignore_errors=True)
+            abort(421)    
         
     except Exception as e:
         print(e)

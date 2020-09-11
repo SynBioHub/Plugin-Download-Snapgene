@@ -147,29 +147,23 @@ def snapgeneseq(sequence, partname, out_dir, detectfeatures = True, linear = Tru
     
     newtext_url = "http://song.ece.utah.edu/examples/pages/acceptNewText.php" #link to post to
     
-    #setting linearity and detect features parameters
-    if linear:
-        linearity = "linear"
-    else:
-        linearity = "circular"
-        
+    data = {}
     if detectfeatures:
-        decfeat = "true"
-    else:
-        decfeat = "false"
+        data["detectFeatures"] = "True"
+    if linear:
+        data["linear"]="True"
+
     
     #data to send
-    data = {"textToUpload": sequence,
-            "detectFeatures": decfeat,
-            "textId": partname,
-            "textName": partname,
-            "topology": linearity} 
-    #parameters to send
+    data["textToUpload"] = sequence
+    data["textId"] = partname
+    data["textName"] = partname
+
     params ={} 
     
     #post data to snapgene server
     requests.post(newtext_url, data = data, params = params,  headers = {"Accept":"text/plain"})
-    
+
     get_converted(partname, out_dir)
     
     return
@@ -218,15 +212,12 @@ def snapgenefile(filename, partname, out_dir, detectfeatures = False, linear = T
     
     #file to open
     gbfile = requests.get(filename).content
-    files = {'fileToUpload': gbfile}
-
-    #parameters
-    params = {} 
+    files = {'fileToUpload': (partname, gbfile)}
     
     #upload file
-    r = requests.post(newfile_url, files=files, data = data, params = params,
+    requests.post(newfile_url, files=files, data = data, params = {},
                       headers = {"Accept":"text/plain"})
-    print(r.text)
+
     get_converted(partname, out_dir)
     
     return
@@ -254,7 +245,7 @@ def get_converted(partname, out_dir):
     
     #request genebank
     s = requests.get(f"{get_url}.gb")
-    genbank = s.content
+    genbank = s.text
     
     #write out genbank
     gb_out_path = os.path.join(out_dir, f"{partname}.gb")
@@ -269,9 +260,5 @@ def get_converted(partname, out_dir):
     png_out_path = os.path.join(out_dir, f"{partname}.png")
     with open(png_out_path, 'wb') as f:
             f.write(t.content)
-    
-    #create zip file of png and gb
-    zip_path_out = os.path.join(out_dir,"Zip")
-    shutil.make_archive(zip_path_out, 'zip', out_dir)
     
     return
