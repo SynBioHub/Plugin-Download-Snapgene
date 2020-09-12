@@ -245,11 +245,11 @@ def get_converted(partname, out_dir):
     
     #request genebank
     s = requests.get(f"{get_url}.gb")
-    genbank = s.text
+    genbank = s.content
     
     #write out genbank
     gb_out_path = os.path.join(out_dir, f"{partname}.gb")
-    with open(gb_out_path,'w') as gb_file:
+    with open(gb_out_path,'wb') as gb_file:
         gb_file.write(genbank)
 
 
