@@ -145,7 +145,7 @@ def snapgeneseq(sequence, partname, out_dir, detectfeatures = True, linear = Tru
 
     """
     
-    newtext_url = "http://song.ece.utah.edu/examples/pages/acceptNewText.php" #link to post to
+    newtext_url = "https://snapgene.sbolstandard.org/examples/pages/acceptNewText.php" #link to post to
     
     data = {}
     if detectfeatures:
@@ -201,7 +201,7 @@ def snapgenefile(filename, partname, out_dir, detectfeatures = False, linear = T
     and Zip.zip (containing gb and png) to out_dir
     """
     
-    newfile_url = "http://song.ece.utah.edu/examples/pages/acceptNewFile.php"
+    newfile_url = "https://snapgene.sbolstandard.org/examples/pages/acceptNewFile.php"
     
     #linearity and detectFeatures works on presence so set those parameters
     data = {}
@@ -241,7 +241,7 @@ def get_converted(partname, out_dir):
 
     """
     
-    get_url = "http://song.ece.utah.edu/dnafiles/"+partname
+    get_url = "https://snapgene.sbolstandard.org/dnafiles/"+partname
     
     #request genebank
     s = requests.get(f"{get_url}.gb")
