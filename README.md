@@ -1,6 +1,6 @@
 # INSTALL
 ## Docker
-Run `docker run --publish 8080:5000 --detach --name snapgene-download-plug synbiohub/plugin-download-snapgene:snapshot` Check it is up using localhost:8080/plain/png/status.
+Run `docker run --publish 8080:5000 --detach --name snapgene-download-plug synbiohub/plugin-download-snapgene:snapshot` Check it is up using localhost:8080/plain/png/status. 
 
 ## Python
 Using python run `pip install -r requirements.txt` to install the requirements.
